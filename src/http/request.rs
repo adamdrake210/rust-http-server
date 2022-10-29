@@ -36,7 +36,6 @@ fn get_next_word(request: &str) -> Option<(&str, &str)> {
   None
 }
 
-
 pub enum ParseError {
   InvalidRequest,
   InvalidEncoding,
